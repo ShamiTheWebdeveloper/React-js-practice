@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function (prop) {
+
     return(
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container">
@@ -12,10 +13,6 @@ export default function (prop) {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/">Link</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
                 </div>
